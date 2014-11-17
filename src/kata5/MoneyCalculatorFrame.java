@@ -7,7 +7,8 @@ class MoneyCalculatorFrame extends JFrame {
 
     public MoneyCalculatorFrame() {
         setTitle("MoneyCalculator");
-        setMinimumSize(new Dimension(WIDTH, WIDTH));
+        setMinimumSize(new Dimension(300, 300));
+        setDefaultCloseOperation(WIDTH);
     }
     
 }
